@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/TeamNAG_Backhoe/Content/Ash/Material/_EmptyMaterial.uasset"
+			]
+		}
+	]
+}
