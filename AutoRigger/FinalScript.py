@@ -1,12 +1,13 @@
 '''
 Vehicle autorigger
 Group NAG - Noah Pereria, Ash Li, Graham Connell
-Version 0.4
+Version 0.5
 
 changelog:
 * added hydrolic rig controls
 * added basic global control creation section
-* Added partial wheel rig UI and functions
+* Added wheel rig UI and functions
+* Added annotations for wheel UI
 
 To do:
 * Edit look of Hydrolics section
@@ -685,18 +686,24 @@ def hydrolicUI():
     UI_hydrolicLayout = cmds.columnLayout("Hydrolic rig", margins=2, parent=UI_MainLayout)
 
     cmds.frameLayout(label="Aim contraints", width=500, collapsable=False)
-    cmds.text("Select 2 objects to aim at eachother", align="left")
+    cmds.text("Locks rotation of 2 objects to point at eachother. Useful for hydrolic pistons.\n\nSelect 2 objects to aim at eachother", align="left")
+    cmds.rowLayout(height=50, rowAttach=(1,"top",0))
     cmds.button(label="Create aim constraint", command="hydrolicAim()")
+    cmds.setParent("..")
 
     cmds.setParent(UI_hydrolicLayout)
     cmds.frameLayout(label="Translation constraints", width=500, collapsable=False)
-    cmds.text("Select parent, then child object to set contraint for movement", align="left")
+    cmds.text("Locks movement of one object to another. Useful when a hydrolic end is anchored to a translating segment of the machine.\n\nSelect parent, then child object to constrain movement", align="left", wordWrap=True)
+    cmds.rowLayout(height=50, rowAttach=(1,"top",0))
     cmds.button(label="Create point constraint", command="hydrolicPoint()")
+    cmds.setParent("..")
 
     cmds.setParent(UI_hydrolicLayout)
     cmds.frameLayout(label="Parent constraints", width=500, collapsable=False)
     cmds.text("Used for parenting hydrolics to the machine, allows the hydrolics to rotate freely, but locks their translation to the parent object.\n\nSelect parent, then child object to set contraint for movement", align="left", width=500, wordWrap=True)
+    cmds.rowLayout(height=50, rowAttach=(1,"top",0))
     cmds.button(label="Create parent constraint", command="hydrolicParent()")
+    cmds.setParent("..")
 
 def hydrolicAim():
     selectedhydrolics = cmds.ls(sl=True)
@@ -733,28 +740,28 @@ def wheelUI():
 
     UI_wheelLayout = cmds.columnLayout("Wheel rig", margins=2, parent=UI_MainLayout)
 
-    cmds.frameLayout(label="Movement settings", width=500, collapsable=False)
-    cmds.text("Set wheel details. Wheel size will be used to calculate accurate rotation based on vehicle movement with a default of a 1:1 relationship (like car tires)\n\nWheels should be aligned on one of X,Y, or Z axis for best results", align="left", wordWrap=True)
-    wheelUI.UI_wheelRadius = cmds.floatSliderButtonGrp(label="Wheel radius:", value=20, field=True, min=0.001, max=200, buttonLabel="Get selected radius", buttonCommand="getSelectedRadius()")
-    wheelUI.UI_wheelRatio = cmds.floatSliderGrp(label="Wheel rotation factor:", min=0.001, max=10, value=1, field=True)
-    wheelUI.UI_controlNormal = cmds.radioButtonGrp(label="Control normal axis:", labelArray2=('x','y'),numberOfRadioButtons=2, columnWidth3=(140,40,40), select=2)
+    cmds.frameLayout(label="Movement settings", width=500, collapsable=False, annotation="Create a control for spinning wheels based on translation of a control")
+    cmds.text("Wheel size will be used to calculate accurate rotation based on vehicle movement with a default of a 1:1 relationship (like car tires to a road)\n\nWheels should be aligned to roll in Z axis", align="left", wordWrap=True)
+    wheelUI.UI_wheelRadius = cmds.floatSliderButtonGrp(label="Wheel radius:", value=20, field=True, min=0.001, max=200, buttonLabel="Get selected radius", buttonCommand="getSelectedRadius()", annotation="Set size of wheels for accurate rotation-based movement")
+    wheelUI.UI_wheelRatio = cmds.floatSliderGrp(label="Wheel rotation factor:", min=0.001, max=10, value=1, field=True,annotation="Set multiplier for wheel rotation, useful when creating a belt/gear driven system")
+    wheelUI.UI_controlNormal = cmds.radioButtonGrp(label="Control orientation:", labelArray2=('x','y'),numberOfRadioButtons=2, columnWidth3=(140,40,40), select=2, annotation="Sets orientation of movement control to face X or Y axis")
     
     cmds.rowLayout( numberOfColumns=2, columnWidth2=(140, 75))
     cmds.separator()
-    cmds.button(label="Create movement control", command="wheelMovementControl()")
+    cmds.button(label="Create movement control", command="wheelMovementControl()", annotation="Creates control for translation to rotate wheels on their X axis")
 
     cmds.setParent(UI_wheelLayout)
     cmds.frameLayout(label="Steering settings", width=500, collapsable=False)
-    cmds.text("Pick an object as a steering wheel, or create a control to impact steering.", align="left", wordWrap=True)
-    wheelUI.UI_steeringObject = cmds.textFieldButtonGrp(label="Steering object:", editable=False, buttonLabel="Set selected", buttonCommand="setSteeringWheel()")
-    wheelUI.UIsteeringAxis = cmds.radioButtonGrp(label="Steering axis:", labelArray3=('x','y','z'),numberOfRadioButtons=3, columnWidth4=(140,40,40,40), select=2)
+    cmds.text("Steering wheel settings --- Pick an object as a steering wheel control", align="left", wordWrap=True)
+    wheelUI.UI_steeringObject = cmds.textFieldButtonGrp(label="Steering object:", editable=False, buttonLabel="Set selected", buttonCommand="setSteeringWheel()", annotation="Sets the object to be used for steering wheels")
+    wheelUI.UIsteeringAxis = cmds.radioButtonGrp(label="Steering axis:", labelArray3=('x','y','z'),numberOfRadioButtons=3, columnWidth4=(140,40,40,40), select=2, annotation="Sets axis for wheels to follow")
     
-    cmds.rowLayout( numberOfColumns=1, columnWidth1=(140))
-    cmds.text("Wheel settings", align="right", wordWrap=True)
+    cmds.rowLayout( numberOfColumns=1, columnWidth1=(500))
+    cmds.text("Wheel settings --- Selected objects will turn based on the steering wheel with the settings and limits below.", align="left", wordWrap=True)
     cmds.setParent("..")
-    wheelUI.UIwheelRotationLimit = cmds.floatSliderGrp(label="Wheel rotation limit", min=0, max=90, value=45, field=True)
-    wheelUI.UIwheelSteeringAxis = cmds.radioButtonGrp(label="Wheel pivot axis:", labelArray3=('x','y','z'),numberOfRadioButtons=3, columnWidth4=(140,40,40,40), select=2)
-    wheelUI.UIwheelPivotInvert = cmds.checkBoxGrp(label="Invert wheel pivot:", numberOfCheckBoxes=1, value1=False)
+    wheelUI.UIwheelRotationLimit = cmds.floatSliderGrp(label="Wheel rotation limit (+/-)", min=0, max=90, value=45, field=True, annotation="Max/min rotation amount (degrees) for wheels. steering wheel is unlimited.")
+    wheelUI.UIwheelSteeringAxis = cmds.radioButtonGrp(label="Wheel pivot axis:", labelArray3=('x','y','z'),numberOfRadioButtons=3, columnWidth4=(140,40,40,40), select=2, annotation="Axis wheels will rotate on")
+    wheelUI.UIwheelPivotInvert = cmds.checkBoxGrp(label="Invert wheel pivot:", numberOfCheckBoxes=1, value1=False, annotation="Inverts the rotation of the wheels, turning opposite to the steering")
 
     #Create steering wheel buttons
     cmds.rowLayout( numberOfColumns=2, columnWidth2=(140, 75))
@@ -788,11 +795,11 @@ def getSelectedRadius():
         cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, edit=True, value=radiusList[0])
         cmds.warning("Inconsistent radius, it's best to run once for each set of wheels of the same size for proper rotation based movement. Using first radius value")
     
+#Returns bounding box dimensions rounded to roundAmount[4] decimal places
 def getBoundingBoxSize(selectedObject):
-    #Returns bounding box dimensions rounded to roundAmount decimal places
     #Bounding box is in world space
 
-    roundAmount = 4 #Sets precision of bounding box value
+    roundAmount = 4 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
     bboxDimensions = []
     bbox = cmds.exactWorldBoundingBox(selectedObject)
 
@@ -826,33 +833,42 @@ def findRadius(listValues):
 def wheelMovementControl():
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
+    bboxDimensions = getBoundingBoxSize(selectedWheels)
+    cmds.FreezeTransformations() #objects with transformations can have unexpected movements when function runs, this fixes that
     wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
     selectedWheels=cmds.ls(sl=True)
     if len(selectedWheels)==0:
         cmds.confirmDialog(m="sorry no objects selected as wheels")
     else:
         cmds.group(n="WheelsGRP")
-        createArrowShape()
+        createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
         cmds.select("WheelsGRP",add=True)
         cmds.align(x="mid",y="min",z="mid",atl=True)
         #now we need to go through all the wheels in the group and make their rotation follow the arrow
         for wheel in selectedWheels:
-            cmds.expression(n="wheelRotationEXP",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
+            cmds.expression(n="wheelRotationEXP#",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
         cmds.parentConstraint("WheelCTRL","WheelsGRP",mo=True)
+
+        #Rename new groups so function can run multiple times
+        cmds.rename("WheelsGRP", "WheelsGRP#")
+        cmds.rename("WheelCTRL", "WheelCTRL#")
     return selectedWheels
 
-def createArrowShape():
+def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
     normalAxis = ['X','Y','Z']
     controlNormalSelection = cmds.radioButtonGrp(wheelUI.UI_controlNormal, query=True, select=True)
     
 
-    cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
+    WheelCTRL = cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
     if controlNormalSelection == 1:
         cmds.setAttr("WheelCTRL.rotateZ", 90)
     elif controlNormalSelection == 2:
         pass
     elif controlNormalSelection == 3:
         cmds.setAttr("WheelCTRL.rotateX", 90)
+
+    cmds.CenterPivot()
+    cmds.scale((arrowScaleX*4)/80,(arrowScaleY*2)/80,(arrowScaleZ*1.7)/80,WheelCTRL) #Set to roughly the right size based on the selection
 
 def setSteeringWheel():
     selectedObjects = cmds.ls(sl=True)
