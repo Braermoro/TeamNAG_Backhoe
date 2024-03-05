@@ -752,7 +752,7 @@ def wheelUI():
     cmds.rowLayout( numberOfColumns=1, columnWidth1=(140))
     cmds.text("Wheel settings", align="right", wordWrap=True)
     cmds.setParent("..")
-    wheelUI.UIwheelRotationLimit = cmds.floatSliderGrp(label="Wheel rotation limit", min=0, max=90, value=45, field=True)
+    wheelUI.UIwheelRotationLimit = cmds.floatSliderGrp(label="Wheel rotation limit (+/-)", min=0, max=90, value=45, field=True)
     wheelUI.UIwheelSteeringAxis = cmds.radioButtonGrp(label="Wheel pivot axis:", labelArray3=('x','y','z'),numberOfRadioButtons=3, columnWidth4=(140,40,40,40), select=2)
     wheelUI.UIwheelPivotInvert = cmds.checkBoxGrp(label="Invert wheel pivot:", numberOfCheckBoxes=1, value1=False)
 
@@ -788,11 +788,11 @@ def getSelectedRadius():
         cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, edit=True, value=radiusList[0])
         cmds.warning("Inconsistent radius, it's best to run once for each set of wheels of the same size for proper rotation based movement. Using first radius value")
     
+#Returns bounding box dimensions rounded to roundAmount[4] decimal places
 def getBoundingBoxSize(selectedObject):
-    #Returns bounding box dimensions rounded to roundAmount decimal places
     #Bounding box is in world space
 
-    roundAmount = 4 #Sets precision of bounding box value
+    roundAmount = 4 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
     bboxDimensions = []
     bbox = cmds.exactWorldBoundingBox(selectedObject)
 
@@ -826,33 +826,42 @@ def findRadius(listValues):
 def wheelMovementControl():
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
+    bboxDimensions = getBoundingBoxSize(selectedWheels)
+    cmds.FreezeTransformations() #objects with transformations can have unexpected movements when function runs, this fixes that
     wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
     selectedWheels=cmds.ls(sl=True)
     if len(selectedWheels)==0:
         cmds.confirmDialog(m="sorry no objects selected as wheels")
     else:
         cmds.group(n="WheelsGRP")
-        createArrowShape()
+        createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
         cmds.select("WheelsGRP",add=True)
         cmds.align(x="mid",y="min",z="mid",atl=True)
         #now we need to go through all the wheels in the group and make their rotation follow the arrow
         for wheel in selectedWheels:
-            cmds.expression(n="wheelRotationEXP",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
+            cmds.expression(n="wheelRotationEXP#",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
         cmds.parentConstraint("WheelCTRL","WheelsGRP",mo=True)
+
+        #Rename new groups so function can run multiple times
+        cmds.rename("WheelsGRP", "WheelsGRP#")
+        cmds.rename("WheelCTRL", "WheelCTRL#")
     return selectedWheels
 
-def createArrowShape():
+def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
     normalAxis = ['X','Y','Z']
     controlNormalSelection = cmds.radioButtonGrp(wheelUI.UI_controlNormal, query=True, select=True)
     
 
-    cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
+    WheelCTRL = cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
     if controlNormalSelection == 1:
         cmds.setAttr("WheelCTRL.rotateZ", 90)
     elif controlNormalSelection == 2:
         pass
     elif controlNormalSelection == 3:
         cmds.setAttr("WheelCTRL.rotateX", 90)
+        
+    cmds.CenterPivot()
+    cmds.scale((arrowScaleX*4)/80,(arrowScaleY*2)/80,(arrowScaleZ*1.7)/80,WheelCTRL) #Set to roughly the right size based on the selection
 
 def setSteeringWheel():
     selectedObjects = cmds.ls(sl=True)
