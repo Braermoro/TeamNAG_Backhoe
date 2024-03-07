@@ -833,10 +833,10 @@ def findRadius(listValues):
 def wheelMovementControl():
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
+    selectedWheels=cmds.ls(sl=True)
     bboxDimensions = getBoundingBoxSize(selectedWheels)
     cmds.FreezeTransformations() #objects with transformations can have unexpected movements when function runs, this fixes that
     wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
-    selectedWheels=cmds.ls(sl=True)
     if len(selectedWheels)==0:
         cmds.confirmDialog(m="sorry no objects selected as wheels")
     else:
