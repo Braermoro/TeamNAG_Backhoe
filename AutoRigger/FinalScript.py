@@ -833,27 +833,48 @@ def findRadius(listValues):
         return listValues[2]/2
 
 def wheelMovementControl():
+    #Get and set variables
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
     selectedWheels=cmds.ls(sl=True)
-    bboxDimensions = getBoundingBoxSize(selectedWheels)
-    cmds.FreezeTransformations() #objects with transformations can have unexpected movements when function runs, this fixes that
     wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
+
+    bboxDimensions = getBoundingBoxSize(selectedWheels)
+    
     if len(selectedWheels)==0:
-        cmds.confirmDialog(m="sorry no objects selected as wheels")
+        cmds.confirmDialog(m="No objects selected as wheels\nPlease select at least 1 wheel object")
     else:
-        cmds.group(n="WheelsGRP")
-        createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
-        cmds.select("WheelsGRP",add=True)
+        WheelsGRP = cmds.group(n="WheelsGRP#")
+        
+        WheelCTRL = createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
+        
+        cmds.select(WheelsGRP,add=True)
         cmds.align(x="mid",y="min",z="mid",atl=True)
         #now we need to go through all the wheels in the group and make their rotation follow the arrow
         for wheel in selectedWheels:
-            cmds.expression(n="wheelRotationEXP#",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
-        cmds.parentConstraint("WheelCTRL","WheelsGRP",mo=True)
+            #Set 2 locators for finding wheel direction
+            #Get wheel position and a position just in front of it
+            wheelLocation = cmds.getAttr(wheel+".translate")[0]
+            locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+5)
+            
+            #Set two locators at the current position, and slightly in front
+            locator1 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
+            cmds.move(wheelLocation[0],wheelLocation[1],wheelLocation[2],locator1)
+            locator2 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
+            cmds.move(locator2Position[0],locator2Position[1],locator2Position[2], locator2)
+            cmds.parent(locator1, locator2, WheelsGRP)
+            
+            cmds.makeIdentity(wheel, rotate=True, apply=True) #objects with transformations can have unexpected movements when function runs, this fixes that
+            cmds.expression(n="wheelRotationEXP#",s=wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor, WheelsGRP,locator1, locator2, WheelCTRL ))
+
+            ''' Old expression
+            f"{wheel}.rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};"
+            '''
+        cmds.parentConstraint(WheelCTRL, WheelsGRP,mo=True)
 
         #Rename new groups so function can run multiple times
-        cmds.rename("WheelsGRP", "WheelsGRP#")
-        cmds.rename("WheelCTRL", "WheelCTRL#")
+        '''cmds.rename("WheelsGRP", "WheelsGRP#")
+        cmds.rename("WheelCTRL", "WheelCTRL#")'''
     return selectedWheels
 
 def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
@@ -861,7 +882,7 @@ def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
     controlNormalSelection = cmds.radioButtonGrp(wheelUI.UI_controlNormal, query=True, select=True)
     
 
-    WheelCTRL = cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
+    WheelCTRL = cmds.curve(n="WheelCTRL#",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
     if controlNormalSelection == 1:
         cmds.setAttr("WheelCTRL.rotateZ", 90)
     elif controlNormalSelection == 2:
@@ -871,6 +892,8 @@ def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
 
     cmds.CenterPivot()
     cmds.scale((arrowScaleX*4)/80,(arrowScaleY*2)/80,(arrowScaleZ*1.7)/80,WheelCTRL) #Set to roughly the right size based on the selection
+
+    return WheelCTRL
 
 def setSteeringWheel():
     selectedObjects = cmds.ls(sl=True)
@@ -927,12 +950,37 @@ def linkSteeringToWheels(steeringObject, selectedWheels, steeringAxis, wheelRota
 
             cmds.expression(n="steeringEXP#",s=f"{wheel}.rotate{wheelPivotAxis}={steeringObject}.rotate{steeringAxis}*{steeringMultiplier};")
 
-def wheelExpressionMEL():
-    wheelRadius = 10 #Dev replace
+#returns the MEL expression for rotating the wheels based on movement of the control
+def wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor,wheelGrp, locator1, locator2, WheelCTRL):
 
-    wheelExpression = f'''float $wheelRadius = {wheelRadius};RFW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;LFW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;RRW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;LRW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;'''
+    wheelExpression = f'''float ${wheel}wheelRadius = {wheelRadius};\n
 
-    return wheelExpression
+    // Get positions of locators 1 and 2, and wheel group location
+    vector ${wheel}_oldPosition = `xform -q -ws -t "{locator1}"`;\n
+    vector ${wheel}_newPosition = `xform -q -ws -t "{wheelGrp}"`;\n
+    vector ${wheel}_directionPosition = `xform -q -ws -t "{locator2}"`;\n
+
+    // Find wheel direction
+    vector ${wheel}_direction = (${wheel}_directionPosition - ${wheel}_newPosition);\n
+    vector ${wheel}_movement = (${wheel}_newPosition - ${wheel}_oldPosition);\n\n
+
+    // Find magnitude of wheel direction
+    float ${wheel}_distance = mag(${wheel}_movement);\n
+    ${wheel}_dotProduct = dotProduct(${wheel}_movement, ${wheel}_direction, 1);\n
+
+    // Update rotation
+
+
+
+    {wheel}.rotateX= {wheel}.rotateX + 360/(6.283*{wheelRadius})*{wheelRotationFactor} * (${wheel}_dotProduct * ${wheel}_distance);\n
+
+    // Move old position locator to new position
+    matchTransform {locator1} {wheelGrp};\n
+
+    // Force update in the viewport
+    $temp = {WheelCTRL}.translateZ;'''
+
+    return wheelExpression.replace("    ","")
 
 #Global control functions ----------------------------------------------------------------
 
