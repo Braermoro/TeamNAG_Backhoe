@@ -801,7 +801,7 @@ def getSelectedRadius():
 def getBoundingBoxSize(selectedObject):
     #Bounding box is in world space
 
-    roundAmount = 4 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
+    roundAmount = 3 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
     bboxDimensions = []
     bbox = cmds.exactWorldBoundingBox(selectedObject)
 
@@ -811,9 +811,9 @@ def getBoundingBoxSize(selectedObject):
 
     return bboxDimensions
 
+#Accepts list of bounding box values and returns value that matches in 2 dimensions
+#If dimensions aren't a match, Z is used by default
 def findRadius(listValues):
-    #Accepts list of bounding box values and returns value that matches in 2 dimensions
-    #If dimensions aren't a match, Z is used by default
 
     if len(listValues) != 3:
         cmds.warning("Radius cannot be found")
@@ -855,7 +855,7 @@ def wheelMovementControl():
             #Set 2 locators for finding wheel direction
             #Get wheel position and a position just in front of it
             wheelLocation = cmds.getAttr(wheel+".translate")[0]
-            locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+5)
+            locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+20)
             
             #Set two locators at the current position, and slightly in front
             locator1 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
