@@ -832,13 +832,13 @@ def findRadius(listValues):
         cmds.warning("Cannot find radius, using Z dimension as radius")
         return listValues[2]/2
 
+#Builds expression and controls for wheel rotation based on movement of control
 def wheelMovementControl():
     #Get and set variables
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
     selectedWheels=cmds.ls(sl=True)
     wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
-
     bboxDimensions = getBoundingBoxSize(selectedWheels)
     
     if len(selectedWheels)==0:
@@ -849,8 +849,9 @@ def wheelMovementControl():
         WheelCTRL = createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
         
         cmds.select(WheelsGRP,add=True)
-        cmds.align(x="mid",y="min",z="mid",atl=True)
-        #now we need to go through all the wheels in the group and make their rotation follow the arrow
+        #cmds.align(x="mid",y="min",z="mid",atl=True)
+        
+        #Go through each wheel in the group and make their rotation follow the control
         for wheel in selectedWheels:
             #Set 2 locators for finding wheel direction
             #Get wheel position and a position just in front of it
@@ -858,15 +859,20 @@ def wheelMovementControl():
             locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+20)
             
             #Set two locators at the current position, and slightly in front
-            locator1 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
-            cmds.move(wheelLocation[0],wheelLocation[1],wheelLocation[2],locator1)
-            locator2 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
-            cmds.move(locator2Position[0],locator2Position[1],locator2Position[2], locator2)
-            cmds.parent(locator1, locator2, WheelsGRP)
+            cmds.spaceLocator()
+            locator1 = cmds.spaceLocator(name=f"{wheel}OldPositionLoc#")[0]
+            #cmds.move(wheelLocation[0],wheelLocation[1],wheelLocation[2],locator1)
+            locator2 = cmds.spaceLocator(name=f"{wheel}NewPositionLoc#")[0]
+            cmds.move(0,0,20, locator2)
+            #cmds.move(locator2Position[0],locator2Position[1],locator2Position[2], locator2)
+            cmds.parent(locator2, WheelsGRP)
+
+            cmds.move(0,0,0,wheel)
             
             cmds.makeIdentity(wheel, rotate=True, apply=True) #objects with transformations can have unexpected movements when function runs, this fixes that
             cmds.expression(n="wheelRotationEXP#",s=wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor, WheelsGRP,locator1, locator2, WheelCTRL ))
 
+            #cmds.move(wheelLocation[0], wheelLocation[1], wheelLocation[2],wheel)
             ''' Old expression
             f"{wheel}.rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};"
             '''
@@ -877,6 +883,7 @@ def wheelMovementControl():
         cmds.rename("WheelCTRL", "WheelCTRL#")'''
     return selectedWheels
 
+#create and return arrow NURBS curve
 def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
     normalAxis = ['X','Y','Z']
     controlNormalSelection = cmds.radioButtonGrp(wheelUI.UI_controlNormal, query=True, select=True)
@@ -953,7 +960,7 @@ def linkSteeringToWheels(steeringObject, selectedWheels, steeringAxis, wheelRota
 #returns the MEL expression for rotating the wheels based on movement of the control
 def wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor,wheelGrp, locator1, locator2, WheelCTRL):
 
-    wheelExpression = f'''float ${wheel}wheelRadius = {wheelRadius};\n
+    wheelExpression = f'''float ${wheel}wheelRadius = {wheelRadius};
 
     // Get positions of locators 1 and 2, and wheel group location
     vector ${wheel}_oldPosition = `xform -q -ws -t "{locator1}"`;\n
@@ -969,8 +976,6 @@ def wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor,wheelGrp, locator
     ${wheel}_dotProduct = dotProduct(${wheel}_movement, ${wheel}_direction, 1);\n
 
     // Update rotation
-
-
 
     {wheel}.rotateX= {wheel}.rotateX + 360/(6.283*{wheelRadius})*{wheelRotationFactor} * (${wheel}_dotProduct * ${wheel}_distance);\n
 
