@@ -852,29 +852,28 @@ def wheelMovementControl():
         cmds.align(x="mid",y="min",z="mid",atl=True)
         #now we need to go through all the wheels in the group and make their rotation follow the arrow
         for wheel in selectedWheels:
+            '''Used in better wheel rotation branch, not needed for simplified setup
             #Set 2 locators for finding wheel direction
             #Get wheel position and a position just in front of it
             wheelLocation = cmds.getAttr(wheel+".translate")[0]
             locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+20)
-            
+
             #Set two locators at the current position, and slightly in front
             locator1 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
             cmds.move(wheelLocation[0],wheelLocation[1],wheelLocation[2],locator1)
             locator2 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
             cmds.move(locator2Position[0],locator2Position[1],locator2Position[2], locator2)
             cmds.parent(locator1, locator2, WheelsGRP)
-            
+            '''
             cmds.makeIdentity(wheel, rotate=True, apply=True) #objects with transformations can have unexpected movements when function runs, this fixes that
-            cmds.expression(n="wheelRotationEXP#",s=wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor, WheelsGRP,locator1, locator2, WheelCTRL ))
+            cmds.expression(n="wheelRotationEXP#",s=f"{wheel}.rotateX=({WheelCTRL}.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
 
-            ''' Old expression
-            f"{wheel}.rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};"
+            ''' Better wheel rotation expression
+            wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor, WheelsGRP,locator1, locator2, WheelCTRL )
+
             '''
         cmds.parentConstraint(WheelCTRL, WheelsGRP,mo=True)
 
-        #Rename new groups so function can run multiple times
-        '''cmds.rename("WheelsGRP", "WheelsGRP#")
-        cmds.rename("WheelCTRL", "WheelCTRL#")'''
     return selectedWheels
 
 def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
@@ -950,6 +949,7 @@ def linkSteeringToWheels(steeringObject, selectedWheels, steeringAxis, wheelRota
 
             cmds.expression(n="steeringEXP#",s=f"{wheel}.rotate{wheelPivotAxis}={steeringObject}.rotate{steeringAxis}*{steeringMultiplier};")
 
+#NOT USED IN THIS VERSION, only used for better wheel rotation
 #returns the MEL expression for rotating the wheels based on movement of the control
 def wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor,wheelGrp, locator1, locator2, WheelCTRL):
 
