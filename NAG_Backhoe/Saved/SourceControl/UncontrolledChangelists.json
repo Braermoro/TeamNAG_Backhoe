@@ -5,6 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_Anim.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_Skeleton.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Anim.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_PhysicsAsset.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Skeleton.uasset",
 				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
