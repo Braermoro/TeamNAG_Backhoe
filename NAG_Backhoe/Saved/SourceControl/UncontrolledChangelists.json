@@ -13,7 +13,6 @@
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Anim.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_PhysicsAsset.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Skeleton.uasset",
-				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUD.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Black.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Black_Font.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Bold.uasset",
@@ -32,6 +31,9 @@
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUDWidget.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Blueprints/BP_HUDDefault.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/_LS_LandscapeDetailed.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/LS_PrimaryLandscape.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUD.uasset",
 				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}

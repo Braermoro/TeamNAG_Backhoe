@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+NAG_Backhoe/Saved/Autosaves/PackageRestoreData.json
+NAG_Backhoe/Saved/Config/CrashReportClient/UECC-Windows-CD015F4F4A5E0D5AB1F08C86D7B41220/CrashReportClient.ini
+NAG_Backhoe/Saved/Config/CrashReportClient/UECC-Windows-E2DBF5664A4C9C1F998AF8AF070E8497/CrashReportClient.ini
+NAG_Backhoe/Saved/Config/WindowsEditor/Editor.ini
+NAG_Backhoe/Saved/Config/CrashReportClient/UECC-Windows-89DFF738431D907FFCF763A51AE76026/CrashReportClient.ini
+NAG_Backhoe/Saved/Autosaves/PackageRestoreData.json
+NAG_Backhoe/Saved/Config/WindowsEditor/Editor.ini
