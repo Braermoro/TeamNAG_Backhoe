@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Backhoe/BP_Backhoe.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Animation/ABP_left_tread.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Animation/ABP_right_tread.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_Anim.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
@@ -33,8 +40,7 @@
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/_LS_LandscapeDetailed.uasset",
 				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/LS_PrimaryLandscape.uasset",
-				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUD.uasset",
-				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUD.uasset"
 			]
 		}
 	]
