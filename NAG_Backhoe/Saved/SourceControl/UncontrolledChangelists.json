@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Backhoe/BP_Backhoe.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Animation/ABP_left_tread.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Animation/ABP_right_tread.uasset",
+				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_Anim.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_Skeleton.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Anim.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_PhysicsAsset.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_right_Skeleton.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Black.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Black_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Bold.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Bold_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Light.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Light_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Medium.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Medium_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Regular.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Regular_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Thin.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Thin_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Variable.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/Fonts/Excon-Variable_Font.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUDWidget.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Blueprints/BP_HUDDefault.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/_LS_LandscapeDetailed.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Landscape/LS_PrimaryLandscape.uasset",
+				"C:/Users/gnlco/Documents/School/TECA 5500 - Scripting in 3D/Backhoe_NAG/TeamNAG_Backhoe/NAG_Backhoe/Content/UserInterfaces/BP_HUD.uasset"
+			]
+		}
+	]
+}

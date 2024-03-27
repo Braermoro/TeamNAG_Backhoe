@@ -4,7 +4,7 @@ Group NAG - Noah Pereria, Ash Li, Graham Connell
 Version 0.5
 
 changelog:
-* added hydrolic rig controls
+* added hydraulic rig controls
 * added basic global control creation section
 * Added wheel rig UI and functions
 * Added annotations for wheel UI
@@ -679,59 +679,59 @@ def resetHandlePositions(newControls, originalControlPositions):
         iterator+=1
 
 #Hydrolic functions ----------------------------------------------------------------------
-def hydrolicUI():
+def hydraulicUI():
     global UI_MainLayout
-    global UI_hydrolicLayout
+    global UI_hydraulicLayout
 
-    UI_hydrolicLayout = cmds.columnLayout("Hydrolic rig", margins=2, parent=UI_MainLayout)
+    UI_hydraulicLayout = cmds.columnLayout("Hydrolic rig", margins=2, parent=UI_MainLayout)
 
     cmds.frameLayout(label="Aim contraints", width=500, collapsable=False)
-    cmds.text("Locks rotation of 2 objects to point at eachother. Useful for hydrolic pistons.\n\nSelect 2 objects to aim at eachother", align="left")
+    cmds.text("Locks rotation of 2 objects to point at eachother. Useful for hydraulic pistons.\n\nSelect 2 objects to aim at eachother", align="left")
     cmds.rowLayout(height=50, rowAttach=(1,"top",0))
-    cmds.button(label="Create aim constraint", command="hydrolicAim()")
+    cmds.button(label="Create aim constraint", command="hydraulicAim()")
     cmds.setParent("..")
 
-    cmds.setParent(UI_hydrolicLayout)
+    cmds.setParent(UI_hydraulicLayout)
     cmds.frameLayout(label="Translation constraints", width=500, collapsable=False)
-    cmds.text("Locks movement of one object to another. Useful when a hydrolic end is anchored to a translating segment of the machine.\n\nSelect parent, then child object to constrain movement", align="left", wordWrap=True)
+    cmds.text("Locks movement of one object to another. Useful when a hydraulic end is anchored to a translating segment of the machine.\n\nSelect parent, then child object to constrain movement", align="left", wordWrap=True)
     cmds.rowLayout(height=50, rowAttach=(1,"top",0))
-    cmds.button(label="Create point constraint", command="hydrolicPoint()")
+    cmds.button(label="Create point constraint", command="hydraulicPoint()")
     cmds.setParent("..")
 
-    cmds.setParent(UI_hydrolicLayout)
+    cmds.setParent(UI_hydraulicLayout)
     cmds.frameLayout(label="Parent constraints", width=500, collapsable=False)
-    cmds.text("Used for parenting hydrolics to the machine, allows the hydrolics to rotate freely, but locks their translation to the parent object.\n\nSelect parent, then child object to set contraint for movement", align="left", width=500, wordWrap=True)
+    cmds.text("Used for parenting hydraulics to the machine, allows the hydraulics to rotate freely, but locks their translation to the parent object.\n\nSelect parent, then child object to set contraint for movement", align="left", width=500, wordWrap=True)
     cmds.rowLayout(height=50, rowAttach=(1,"top",0))
-    cmds.button(label="Create parent constraint", command="hydrolicParent()")
+    cmds.button(label="Create parent constraint", command="hydraulicParent()")
     cmds.setParent("..")
 
-def hydrolicAim():
-    selectedhydrolics = cmds.ls(sl=True)
+def hydraulicAim():
+    selectedhydraulics = cmds.ls(sl=True)
 
-    if len(selectedhydrolics) != 2:
+    if len(selectedhydraulics) != 2:
         cmds.confirmDialog(title="Selection error", message="Please select exactly 2 objects to point at eachother, you may repeat to add additional constraints", button="Ok")
         return
     
-    cmds.aimConstraint(selectedhydrolics[0], selectedhydrolics[1], maintainOffset=True)
-    cmds.aimConstraint(selectedhydrolics[1], selectedhydrolics[0], maintainOffset=True)
+    cmds.aimConstraint(selectedhydraulics[0], selectedhydraulics[1], maintainOffset=True)
+    cmds.aimConstraint(selectedhydraulics[1], selectedhydraulics[0], maintainOffset=True)
 
-def hydrolicPoint():
-    selectedhydrolics = cmds.ls(sl=True)
+def hydraulicPoint():
+    selectedhydraulics = cmds.ls(sl=True)
 
-    if len(selectedhydrolics) != 2:
+    if len(selectedhydraulics) != 2:
         cmds.confirmDialog(title="Selection error", message="Please select exactly 2 objects to point at eachother, you may repeat to add additional constraints", button="Ok")
         return
     
-    cmds.pointConstraint(selectedhydrolics[0], selectedhydrolics[1], maintainOffset=True)
+    cmds.pointConstraint(selectedhydraulics[0], selectedhydraulics[1], maintainOffset=True)
 
-def hydrolicParent():
-    selectedhydrolics = cmds.ls(sl=True)
+def hydraulicParent():
+    selectedhydraulics = cmds.ls(sl=True)
 
-    if len(selectedhydrolics) != 2:
+    if len(selectedhydraulics) != 2:
         cmds.confirmDialog(title="Selection error", message="Please select exactly 2 objects to constrain, you may repeat this action to add additional constraints", button="Ok")
         return
     
-    cmds.parentConstraint(selectedhydrolics[0], selectedhydrolics[1], maintainOffset=True, skipRotate=("x","y","z"))
+    cmds.parentConstraint(selectedhydraulics[0], selectedhydraulics[1], maintainOffset=True, skipRotate=("x","y","z"))
 
 #Wheel functions -------------------------------------------------------------------------
 def wheelUI():
@@ -750,6 +750,8 @@ def wheelUI():
     cmds.separator()
     cmds.button(label="Create movement control", command="wheelMovementControl()", annotation="Creates control for translation to rotate wheels on their X axis")
 
+    #-----------------------------------------------------------------------------
+    #Steering wheel settings
     cmds.setParent(UI_wheelLayout)
     cmds.frameLayout(label="Steering settings", width=500, collapsable=False)
     cmds.text("Steering wheel settings --- Pick an object as a steering wheel control", align="left", wordWrap=True)
@@ -799,7 +801,7 @@ def getSelectedRadius():
 def getBoundingBoxSize(selectedObject):
     #Bounding box is in world space
 
-    roundAmount = 4 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
+    roundAmount = 3 #Sets precision of bounding box value, too high a value could cause issues due to float math precision
     bboxDimensions = []
     bbox = cmds.exactWorldBoundingBox(selectedObject)
 
@@ -809,9 +811,9 @@ def getBoundingBoxSize(selectedObject):
 
     return bboxDimensions
 
+#Accepts list of bounding box values and returns value that matches in 2 dimensions
+#If dimensions aren't a match, Z is used by default
 def findRadius(listValues):
-    #Accepts list of bounding box values and returns value that matches in 2 dimensions
-    #If dimensions aren't a match, Z is used by default
 
     if len(listValues) != 3:
         cmds.warning("Radius cannot be found")
@@ -831,27 +833,47 @@ def findRadius(listValues):
         return listValues[2]/2
 
 def wheelMovementControl():
+    #Get and set variables
     wheelRadius = cmds.floatSliderButtonGrp(wheelUI.UI_wheelRadius, query=True, value=True)
     global selectedWheels
-    bboxDimensions = getBoundingBoxSize(selectedWheels)
-    cmds.FreezeTransformations() #objects with transformations can have unexpected movements when function runs, this fixes that
-    wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
     selectedWheels=cmds.ls(sl=True)
+    wheelRotationFactor = str(cmds.floatSliderGrp(wheelUI.UI_wheelRatio,q=True,v=True))
+
+    bboxDimensions = getBoundingBoxSize(selectedWheels)
+    
     if len(selectedWheels)==0:
-        cmds.confirmDialog(m="sorry no objects selected as wheels")
+        cmds.confirmDialog(m="No objects selected as wheels\nPlease select at least 1 wheel object")
     else:
-        cmds.group(n="WheelsGRP")
-        createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
-        cmds.select("WheelsGRP",add=True)
+        WheelsGRP = cmds.group(n="WheelsGRP#")
+        
+        WheelCTRL = createArrowShape(bboxDimensions[0], bboxDimensions[1], bboxDimensions[2])
+        
+        cmds.select(WheelsGRP,add=True)
         cmds.align(x="mid",y="min",z="mid",atl=True)
         #now we need to go through all the wheels in the group and make their rotation follow the arrow
         for wheel in selectedWheels:
-            cmds.expression(n="wheelRotationEXP#",s=wheel+f".rotateX=(WheelCTRL.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
-        cmds.parentConstraint("WheelCTRL","WheelsGRP",mo=True)
+            '''Used in better wheel rotation branch, not needed for simplified setup
+            #Set 2 locators for finding wheel direction
+            #Get wheel position and a position just in front of it
+            wheelLocation = cmds.getAttr(wheel+".translate")[0]
+            locator2Position = (wheelLocation[0], wheelLocation[1], wheelLocation[2]+20)
 
-        #Rename new groups so function can run multiple times
-        cmds.rename("WheelsGRP", "WheelsGRP#")
-        cmds.rename("WheelCTRL", "WheelCTRL#")
+            #Set two locators at the current position, and slightly in front
+            locator1 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
+            cmds.move(wheelLocation[0],wheelLocation[1],wheelLocation[2],locator1)
+            locator2 = cmds.spaceLocator(name=f"{wheel}Loc#")[0]
+            cmds.move(locator2Position[0],locator2Position[1],locator2Position[2], locator2)
+            cmds.parent(locator1, locator2, WheelsGRP)
+            '''
+            cmds.makeIdentity(wheel, rotate=True, apply=True) #objects with transformations can have unexpected movements when function runs, this fixes that
+            cmds.expression(n="wheelRotationEXP#",s=f"{wheel}.rotateX=({WheelCTRL}.translateZ/{wheelRadius}) * 57.2957795*{wheelRotationFactor};")
+
+            ''' Better wheel rotation expression
+            wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor, WheelsGRP,locator1, locator2, WheelCTRL )
+
+            '''
+        cmds.parentConstraint(WheelCTRL, WheelsGRP,mo=True)
+
     return selectedWheels
 
 def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
@@ -859,7 +881,7 @@ def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
     controlNormalSelection = cmds.radioButtonGrp(wheelUI.UI_controlNormal, query=True, select=True)
     
 
-    WheelCTRL = cmds.curve(n="WheelCTRL",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
+    WheelCTRL = cmds.curve(n="WheelCTRL#",d=1,p=[(-10,0,-30),(10,0,-30),(10,0,30),(20,0,30),(0,0,50),(-20,0,30),(-10,0,30),(-10,0,-30),],k=[0,1,2,3,4,5,6,7])
     if controlNormalSelection == 1:
         cmds.setAttr("WheelCTRL.rotateZ", 90)
     elif controlNormalSelection == 2:
@@ -869,6 +891,8 @@ def createArrowShape(arrowScaleX = 1, arrowScaleY = 1, arrowScaleZ = 1):
 
     cmds.CenterPivot()
     cmds.scale((arrowScaleX*4)/80,(arrowScaleY*2)/80,(arrowScaleZ*1.7)/80,WheelCTRL) #Set to roughly the right size based on the selection
+
+    return WheelCTRL
 
 def setSteeringWheel():
     selectedObjects = cmds.ls(sl=True)
@@ -925,12 +949,38 @@ def linkSteeringToWheels(steeringObject, selectedWheels, steeringAxis, wheelRota
 
             cmds.expression(n="steeringEXP#",s=f"{wheel}.rotate{wheelPivotAxis}={steeringObject}.rotate{steeringAxis}*{steeringMultiplier};")
 
-def wheelExpressionMEL():
-    wheelRadius = 10 #Dev replace
+#NOT USED IN THIS VERSION, only used for better wheel rotation
+#returns the MEL expression for rotating the wheels based on movement of the control
+def wheelExpressionMEL(wheel, wheelRadius, wheelRotationFactor,wheelGrp, locator1, locator2, WheelCTRL):
 
-    wheelExpression = f'''float $wheelRadius = {wheelRadius};RFW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;LFW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;RRW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;LRW.rotateX=(MainCarCT.translateZ/$wheelRadius) * 57.2957795;'''
+    wheelExpression = f'''float ${wheel}wheelRadius = {wheelRadius};\n
 
-    return wheelExpression
+    // Get positions of locators 1 and 2, and wheel group location
+    vector ${wheel}_oldPosition = `xform -q -ws -t "{locator1}"`;\n
+    vector ${wheel}_newPosition = `xform -q -ws -t "{wheelGrp}"`;\n
+    vector ${wheel}_directionPosition = `xform -q -ws -t "{locator2}"`;\n
+
+    // Find wheel direction
+    vector ${wheel}_direction = (${wheel}_directionPosition - ${wheel}_newPosition);\n
+    vector ${wheel}_movement = (${wheel}_newPosition - ${wheel}_oldPosition);\n\n
+
+    // Find magnitude of wheel direction
+    float ${wheel}_distance = mag(${wheel}_movement);\n
+    ${wheel}_dotProduct = dotProduct(${wheel}_movement, ${wheel}_direction, 1);\n
+
+    // Update rotation
+
+
+
+    {wheel}.rotateX= {wheel}.rotateX + 360/(6.283*{wheelRadius})*{wheelRotationFactor} * (${wheel}_dotProduct * ${wheel}_distance);\n
+
+    // Move old position locator to new position
+    matchTransform {locator1} {wheelGrp};\n
+
+    // Force update in the viewport
+    $temp = {WheelCTRL}.translateZ;'''
+
+    return wheelExpression.replace("    ","")
 
 #Global control functions ----------------------------------------------------------------
 
@@ -941,11 +991,18 @@ def globalControlUI():
 
     UI_globalLayout = cmds.columnLayout("Global rig", margins=2, parent=UI_MainLayout)
 
-    cmds.text("Overall description\n\nSelect all the controls you want to parent together under a main control for moving the entire rig.", align="left", wordWrap=True)
+    cmds.text("Select all the controls you want to parent together under a main control for moving the rig.", align="left", wordWrap=True, width=500)
     globalControlUI.UI_globalControlShape = cmds.radioButtonGrp( label="Global control shape:", labelArray2=['Circle', 'Box'], numberOfRadioButtons=2, columnWidth3=[140,50,50], select=2 )
+
+
     cmds.rowLayout( numberOfColumns=2, columnWidth2=(140, 75))
     cmds.separator()
     cmds.button(label="Create global control", command="globalControl()")
+
+    cmds.setParent(UI_globalLayout)
+    globalAdvancedLayout = cmds.frameLayout(label="Advanced settings", width=500, collapsable=True, collapse=True, annotation="Advanced settings for global controls")
+    cmds.text("Set a substring that will be used to parent constrain controls that require movement to control mesh. Example includes wheel rotation controls based on control movement", align="left", wordWrap=True)
+    cmds.textFieldGrp(label="Constraint substring:", editable=True, text="WheelCTRL", annotation="Sets a substring to use a parent constrain instead of normal parenting to maintain movement based controls for rig")
 
 #Creates global control
 def globalControl():
@@ -959,6 +1016,9 @@ def globalControl():
 
     controlSelect = int(cmds.radioButtonGrp(globalControlUI.UI_globalControlShape, query=True, select=True))
 
+    #Get 2 lists for contraint items, and all others
+    constraintControlList, otherControlList = separateSelectedLists(selectedControls, "WheelCTRL")
+
     #Create global control for circle or box
     match controlSelect:
         case 1:
@@ -969,8 +1029,11 @@ def globalControl():
             cmds.color(rgbColor=(0,1,0.5))
             cmds.rotate(0,45,0,globalCTRL)
             cmds.FreezeTransformations()
-
-    cmds.parent(selectedControls, globalCTRL)
+    
+    #Contrain and group existing controls to new group
+    parentConstrainObjectsInList(globalCTRL, constraintControlList)
+    cmds.parent(otherControlList, globalCTRL)
+    cmds.group(globalCTRL, constraintControlList, name="GlobalCTRLgrp")
 
 #Get maximum size of bounding box for a group of selected controls
 def boundingBoxMaxSize(selectedControls):
@@ -987,6 +1050,24 @@ def boundingBoxMaxSize(selectedControls):
     else:
         return zSize
 
+#Accepts list and substring, returns 2 lists, 1st with list items that contain the substring, second list with all other list items
+def separateSelectedLists(originalList, substring):
+    constraintsList = []
+    otherControlList = []
+
+    #check if object containst substring, if yes add to constraints list, otherwise add to otherControlList
+    for item in originalList:
+        if str(item).find(substring) != -1:
+            constraintsList.append(item)
+        else:
+            otherControlList.append(item)
+
+    return constraintsList, otherControlList
+
+#Takes parent and list of children to parent constrain to an object/control
+def parentConstrainObjectsInList(parent, children):
+    for child in children:
+        cmds.parentConstraint(parent, child, maintainOffset=True)
 #End functions -------------------------------------------------------------------
 #---------------------------------------------------------------------------------
 
@@ -1042,12 +1123,12 @@ UI_saveRig = cmds.button(label="Save rig", annotation="Saves the rig and allows 
 cmds.setParent("..")
 #End Arm UI------------------------------------------------------------------
 
-#Create tread, hydrolic, wheel, and global tab UI
+#Create tread, hydraulic, wheel, and global tab UI
 treadUI()
-hydrolicUI()
+hydraulicUI()
 wheelUI()
 globalControlUI()
 
-cmds.tabLayout(UI_MainLayout, edit=True, tabLabel=((UI_armTab, "Arm rig"),(UI_treadLayout,"Tread rig"),(UI_hydrolicLayout,"Hydrolic rig"),(UI_wheelLayout,"Wheel rig"),(UI_globalLayout, "Global rig")))
+cmds.tabLayout(UI_MainLayout, edit=True, tabLabel=((UI_armTab, "Arm rig"),(UI_treadLayout,"Tread rig"),(UI_hydraulicLayout,"Hydrolic rig"),(UI_wheelLayout,"Wheel rig"),(UI_globalLayout, "Global rig")))
 
 cmds.showWindow()
