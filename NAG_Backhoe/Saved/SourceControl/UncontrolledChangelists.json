@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/barrel_02_barrel_02/barrel_02_GeometryCollection.uasset",
+				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/barrel_03_barrel_03/barrel_cl.uasset",
+				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap",
 				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Ash/BP/Backhoe/BP_Backhoe.uasset",
 				"E:/TeamProject/GitRepository/TeamNAG/TeamNAG_Backhoe/NAG_Backhoe/Content/Assets/Backhoe/treads_left_PhysicsAsset.uasset",
