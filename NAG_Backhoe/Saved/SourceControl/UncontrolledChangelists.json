@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/_LS_LandscapeDetailed.uasset",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Canyon.umap",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/LS_PrimaryLandscape.uasset",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/Cliff_LayerInfo.uasset",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/Grass_LayerInfo.uasset",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/Path_LayerInfo.uasset",
+				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/Rock_LayerInfo.uasset",
 				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/barrel_02_barrel_02/barrel_02_GeometryCollection.uasset",
 				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/barrel_03_barrel_03/barrel_cl.uasset",
 				"D:/BCIT/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap",
