@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/Textures/Barrel_Main.uasset",
+				"D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/Textures/Barrel_lambert3_BaseColor.uasset",
+				"D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/Textures/Barrel_lambert3_Normal.uasset",
+				"D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/Textures/Barrel_lambert3_OcclusionRoughnessMetallic.uasset",
+				"D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Fracture/Textures/M_BarrelMain.uasset",
 				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/_LS_LandscapeDetailed.uasset",
 				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Canyon.umap",
 				"C:/Users/gnlco/Documents/School/Game_Project/Game_gitReport/NAG_Backhoe/Content/Assets/Landscape/LS_PrimaryLandscape.uasset",
