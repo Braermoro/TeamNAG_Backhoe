@@ -1665,3 +1665,980 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.04.12-19.10.47:523][965]AssetCheck: New page: Asset Save: multiple assets
 [2024.04.12-19.10.47:523][965]LogContentValidation: Display: Validating /Script/Engine.World /Game/Canyon.Canyon
 [2024.04.12-19.10.47:523][965]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Destructables/BP_barrel.BP_barrel
+[2024.04.12-19.11.26:505][ 67]LogChaos: NewSimplicial: InitialSize: 161, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.26:505][ 67]LogChaos: NewSimplicial: InitialSize: 223, ImplicitExterior: 0, FullCopy: 1, FinalSize: 46
+[2024.04.12-19.11.26:505][ 67]LogChaos: NewSimplicial: InitialSize: 167, ImplicitExterior: 0, FullCopy: 1, FinalSize: 45
+[2024.04.12-19.11.26:505][ 67]LogChaos: NewSimplicial: InitialSize: 179, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.26:505][ 67]LogChaos: NewSimplicial: InitialSize: 251, ImplicitExterior: 0, FullCopy: 1, FinalSize: 44
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 225, ImplicitExterior: 0, FullCopy: 1, FinalSize: 50
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 207, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 292, ImplicitExterior: 0, FullCopy: 1, FinalSize: 34
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 229, ImplicitExterior: 0, FullCopy: 1, FinalSize: 37
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 106, ImplicitExterior: 0, FullCopy: 1, FinalSize: 28
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 121, ImplicitExterior: 0, FullCopy: 1, FinalSize: 29
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 172, ImplicitExterior: 0, FullCopy: 1, FinalSize: 32
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 155, ImplicitExterior: 0, FullCopy: 1, FinalSize: 32
+[2024.04.12-19.11.26:506][ 67]LogChaos: NewSimplicial: InitialSize: 231, ImplicitExterior: 0, FullCopy: 1, FinalSize: 35
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 163, ImplicitExterior: 0, FullCopy: 1, FinalSize: 30
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 155, ImplicitExterior: 0, FullCopy: 1, FinalSize: 35
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 210, ImplicitExterior: 0, FullCopy: 1, FinalSize: 34
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 116, ImplicitExterior: 0, FullCopy: 1, FinalSize: 36
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 116, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 117, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 211, ImplicitExterior: 0, FullCopy: 1, FinalSize: 39
+[2024.04.12-19.11.26:507][ 67]LogChaos: NewSimplicial: InitialSize: 109, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.26:509][ 67]LogChaos: NewSimplicial: InitialSize: 3709, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.26:510][ 67]LogChaos: NewSimplicial: InitialSize: 502, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.26:510][ 67]LogChaos: NewSimplicial: InitialSize: 6496, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.26:531][ 67]LogDerivedDataCache: C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache/Content/2c/65/7bf78f5baec6136167ef4f96e2b8e280b355.udd from 'GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection'.
+[2024.04.12-19.11.26:535][ 67]LogDerivedDataCache: C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyGeometryCollection/f0/80/e87764ba02f661986d7ebda8382d088b5778.udd from 'GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection'.
+[2024.04.12-19.11.29:220][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-19.11.29:329][389]LogSavePackage: Moving output files for package: /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection
+[2024.04.12-19.11.29:329][389]LogSavePackage: Moving 'D:/GrahamConnell/Game_git/NAG_Backhoe/Saved/Barrel_Main_GeometryCollectionF2A846C0463F3AF7CEE57693AE1C35A1.tmp' to 'D:/GrahamConnell/Game_git/NAG_Backhoe/Content/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.uasset'
+[2024.04.12-19.11.29:335][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 692 ms)
+[2024.04.12-19.11.29:337][389]AssetCheck: New page: Asset Save: Barrel_Main_GeometryCollection
+[2024.04.12-19.11.29:337][389]LogContentValidation: Display: Validating /Script/GeometryCollectionEngine.GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 161, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 223, ImplicitExterior: 0, FullCopy: 1, FinalSize: 46
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 167, ImplicitExterior: 0, FullCopy: 1, FinalSize: 45
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 179, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 251, ImplicitExterior: 0, FullCopy: 1, FinalSize: 44
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 225, ImplicitExterior: 0, FullCopy: 1, FinalSize: 50
+[2024.04.12-19.11.43:142][ 36]LogChaos: NewSimplicial: InitialSize: 207, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 292, ImplicitExterior: 0, FullCopy: 1, FinalSize: 34
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 229, ImplicitExterior: 0, FullCopy: 1, FinalSize: 37
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 106, ImplicitExterior: 0, FullCopy: 1, FinalSize: 28
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 121, ImplicitExterior: 0, FullCopy: 1, FinalSize: 29
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 172, ImplicitExterior: 0, FullCopy: 1, FinalSize: 32
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 155, ImplicitExterior: 0, FullCopy: 1, FinalSize: 32
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 231, ImplicitExterior: 0, FullCopy: 1, FinalSize: 35
+[2024.04.12-19.11.43:143][ 36]LogChaos: NewSimplicial: InitialSize: 163, ImplicitExterior: 0, FullCopy: 1, FinalSize: 30
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 155, ImplicitExterior: 0, FullCopy: 1, FinalSize: 35
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 210, ImplicitExterior: 0, FullCopy: 1, FinalSize: 34
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 116, ImplicitExterior: 0, FullCopy: 1, FinalSize: 36
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 116, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 117, ImplicitExterior: 0, FullCopy: 1, FinalSize: 40
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 211, ImplicitExterior: 0, FullCopy: 1, FinalSize: 39
+[2024.04.12-19.11.43:144][ 36]LogChaos: NewSimplicial: InitialSize: 109, ImplicitExterior: 0, FullCopy: 1, FinalSize: 38
+[2024.04.12-19.11.43:145][ 36]LogChaos: NewSimplicial: InitialSize: 3709, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.43:145][ 36]LogChaos: NewSimplicial: InitialSize: 502, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.43:147][ 36]LogChaos: NewSimplicial: InitialSize: 6496, ImplicitExterior: 0, FullCopy: 1, FinalSize: 60
+[2024.04.12-19.11.43:172][ 36]LogDerivedDataCache: C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache/Content/f3/e8/d18881a4d56d053858fa1772037666ae1f72.udd from 'GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection'.
+[2024.04.12-19.11.43:175][ 37]LogDerivedDataCache: C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/gconnell4/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyGeometryCollection/ab/65/0c03717b4280937aeff3e993df93e04b1544.udd from 'GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection'.
+[2024.04.12-19.11.44:808][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-19.11.44:908][223]LogSavePackage: Moving output files for package: /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection
+[2024.04.12-19.11.44:909][223]LogSavePackage: Moving 'D:/GrahamConnell/Game_git/NAG_Backhoe/Saved/Barrel_Main_GeometryCollectionF9467B524C665D58B909B0B45D8D9B1A.tmp' to 'D:/GrahamConnell/Game_git/NAG_Backhoe/Content/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.uasset'
+[2024.04.12-19.11.44:914][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 798 ms)
+[2024.04.12-19.11.44:915][223]AssetCheck: New page: Asset Save: Barrel_Main_GeometryCollection
+[2024.04.12-19.11.44:915][223]LogContentValidation: Display: Validating /Script/GeometryCollectionEngine.GeometryCollection /Game/Fracture/Textures/Barrel_Main_Barrel_Main/Barrel_Main_GeometryCollection.Barrel_Main_GeometryCollection
+[2024.04.12-19.11.46:349][351]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.11.46:357][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.11.46:357][351]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:11:46 AM)
+[2024.04.12-19.11.46:387][351]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2024.04.12-19.11.46:389][351]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.04.12-19.11.46:400][352]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.11.46:444][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044685s)
+[2024.04.12-19.11.46:444][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044722s)
+[2024.04.12-19.11.46:453][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.11.46:455][352]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.11.46:455][352]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.11.46:455][352]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.11.46:456][352]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.04.12-19.11.46:456][352]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.11.46:456][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.11.46:456][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.11.46:456][352]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.11.46:456][352]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.11.46:456][352]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.11.46:458][352]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.11.46:507][352]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.11.46:507][352]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.11.46:507][352]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.11.46:507][352]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.11.46:507][352]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.12-19.11.46:507][352]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.04.12-19.11.46:508][352]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.12-19.11.46:508][352]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.12-19.11.46:508][352]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.12-19.11.46:508][352]LogAudio: Display: Audio Device (ID: 8) registered with world 'Canyon'.
+[2024.04.12-19.11.46:508][352]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.12-19.11.46:510][352]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.11.46:525][352]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.11.46
+[2024.04.12-19.11.46:528][352]LogWorld: Bringing up level for play took: 0.016693
+[2024.04.12-19.11.46:531][352]PIE: Server logged in
+[2024.04.12-19.11.46:531][352]PIE: Play in editor total start time 0.176 seconds.
+[2024.04.12-19.11.53:488][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.11.53:488][172]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.11.53:488][172]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.11.53:491][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.11.53:495][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.11.53:499][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.11.53:509][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.11.53:509][172]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.12-19.11.53:509][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.12-19.11.53:511][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.12-19.11.53:515][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.11.53:523][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.04.12-19.11.53:557][173]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.04.12-19.12.19:535][236]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.12.19:573][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.04.12-19.12.20:734][329]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.12.20:741][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.12.20:741][329]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:12:20 AM)
+[2024.04.12-19.12.20:777][329]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.04.12-19.12.20:779][329]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.04.12-19.12.20:789][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.20:835][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045306s)
+[2024.04.12-19.12.20:835][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.045345s)
+[2024.04.12-19.12.20:843][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.04.12-19.12.20:845][330]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.12.20:845][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.12.20:845][330]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.12.20:846][330]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2024.04.12-19.12.20:846][330]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.12.20:846][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.12.20:846][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.12.20:846][330]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.12.20:846][330]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.12.20:846][330]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.12.20:848][330]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.12.20:896][330]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.12.20:896][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.12.20:896][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.12.20:896][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.12.20:897][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.04.12-19.12.20:897][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.04.12-19.12.20:898][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.04.12-19.12.20:898][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.04.12-19.12.20:898][330]LogInit: FAudioDevice initialized with ID 9.
+[2024.04.12-19.12.20:898][330]LogAudio: Display: Audio Device (ID: 9) registered with world 'Canyon'.
+[2024.04.12-19.12.20:898][330]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.12-19.12.20:901][330]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.12.20:915][330]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.12.20
+[2024.04.12-19.12.20:918][330]LogWorld: Bringing up level for play took: 0.016222
+[2024.04.12-19.12.20:920][330]PIE: Server logged in
+[2024.04.12-19.12.20:921][330]PIE: Play in editor total start time 0.18 seconds.
+[2024.04.12-19.12.23:378][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.23:378][610]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.23:378][610]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.12.23:381][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.23:385][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.12.23:389][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.23:400][610]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.12.23:400][610]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.12-19.12.23:400][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.12-19.12.23:402][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.12-19.12.23:405][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.23:413][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.04.12-19.12.23:481][612]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.04.12-19.12.29:766][342]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.12.29:802][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.04.12-19.12.30:771][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.12.30:777][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.12.30:777][434]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:12:30 AM)
+[2024.04.12-19.12.30:807][434]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.04.12-19.12.30:809][434]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.04.12-19.12.30:819][435]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.30:864][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044488s)
+[2024.04.12-19.12.30:864][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044525s)
+[2024.04.12-19.12.30:872][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.12.30:873][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.12.30:873][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.12.30:874][435]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.12.30:874][435]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2024.04.12-19.12.30:874][435]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.12.30:874][435]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.12.30:874][435]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.12.30:874][435]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.12.30:874][435]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.12.30:874][435]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.12.30:877][435]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.12.30:925][435]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.12.30:925][435]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.12.30:925][435]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.12.30:925][435]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.12.30:926][435]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.12-19.12.30:926][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.12-19.12.30:927][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.12-19.12.30:927][435]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.12-19.12.30:927][435]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.12-19.12.30:927][435]LogAudio: Display: Audio Device (ID: 10) registered with world 'Canyon'.
+[2024.04.12-19.12.30:927][435]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.12-19.12.30:929][435]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.12.30:945][435]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.12.30
+[2024.04.12-19.12.30:947][435]LogWorld: Bringing up level for play took: 0.016775
+[2024.04.12-19.12.30:950][435]PIE: Server logged in
+[2024.04.12-19.12.30:951][435]PIE: Play in editor total start time 0.173 seconds.
+[2024.04.12-19.12.35:647][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.35:647][986]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.35:648][986]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.12.35:650][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.35:655][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.12.35:659][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.35:668][986]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.12.35:668][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.12-19.12.35:668][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.12-19.12.35:669][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.12-19.12.35:674][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.35:682][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.04.12-19.12.35:748][988]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.04.12-19.12.53:709][ 66]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.12.53:744][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.12.54:851][176]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.12.54:857][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.12.54:857][176]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:12:54 AM)
+[2024.04.12-19.12.54:897][176]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.04.12-19.12.54:899][176]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.04.12-19.12.54:908][177]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.54:954][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044960s)
+[2024.04.12-19.12.54:954][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044998s)
+[2024.04.12-19.12.54:964][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.12.54:966][177]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.12.54:966][177]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.12.54:966][177]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.12.54:966][177]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2024.04.12-19.12.54:966][177]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.12.54:966][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.12.54:966][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.12.54:966][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.12.54:966][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.12.54:966][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.12.54:968][177]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.12.55:017][177]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.12.55:017][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.12.55:017][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.12.55:017][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.12.55:018][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.12-19.12.55:018][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.12-19.12.55:019][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.12-19.12.55:019][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.12-19.12.55:019][177]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.12-19.12.55:019][177]LogAudio: Display: Audio Device (ID: 11) registered with world 'Canyon'.
+[2024.04.12-19.12.55:019][177]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.12-19.12.55:021][177]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.12.55:035][177]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.12.55
+[2024.04.12-19.12.55:038][177]LogWorld: Bringing up level for play took: 0.016087
+[2024.04.12-19.12.55:040][177]PIE: Server logged in
+[2024.04.12-19.12.55:041][177]PIE: Play in editor total start time 0.184 seconds.
+[2024.04.12-19.12.56:817][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.56:817][373]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.12.56:818][373]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.12.56:820][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.56:824][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.12.56:828][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.12.56:839][373]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.12.56:839][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.12-19.12.56:839][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.12-19.12.56:840][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.12-19.12.56:844][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.12.56:851][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.12-19.12.56:879][374]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.04.12-19.13.14:467][432]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.13.14:502][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.12-19.13.15:434][495]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.13.15:442][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.13.15:442][495]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:13:15 AM)
+[2024.04.12-19.13.15:442][495]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.04.12-19.13.15:444][495]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.04.12-19.13.15:453][496]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.15:500][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046454s)
+[2024.04.12-19.13.15:500][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.046492s)
+[2024.04.12-19.13.15:509][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.13.15:511][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.13.15:511][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.13.15:511][496]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.13.15:512][496]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2024.04.12-19.13.15:512][496]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.13.15:512][496]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.13.15:512][496]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.13.15:512][496]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.13.15:512][496]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.13.15:512][496]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.13.15:514][496]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.13.15:562][496]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.13.15:562][496]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.13.15:562][496]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.13.15:562][496]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.13.15:563][496]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.12-19.13.15:563][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.12-19.13.15:564][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.12-19.13.15:565][496]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.12-19.13.15:565][496]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.12-19.13.15:565][496]LogAudio: Display: Audio Device (ID: 12) registered with world 'Canyon'.
+[2024.04.12-19.13.15:565][496]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.12-19.13.15:566][496]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.13.15:581][496]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.13.15
+[2024.04.12-19.13.15:583][496]LogWorld: Bringing up level for play took: 0.016155
+[2024.04.12-19.13.15:586][496]PIE: Server logged in
+[2024.04.12-19.13.15:586][496]PIE: Play in editor total start time 0.145 seconds.
+[2024.04.12-19.13.16:907][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.16:907][633]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.16:908][633]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.13.16:909][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.16:913][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.13.16:918][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.16:929][633]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.13.16:929][633]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.12-19.13.16:929][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.12-19.13.16:931][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.12-19.13.16:935][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.16:941][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.12-19.13.17:001][635]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.04.12-19.13.23:967][441]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.13.24:003][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.13.25:070][526]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.13.25:077][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.13.25:077][526]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:13:25 AM)
+[2024.04.12-19.13.25:077][526]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.04.12-19.13.25:079][526]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.04.12-19.13.25:089][527]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.25:134][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046285s)
+[2024.04.12-19.13.25:134][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.046321s)
+[2024.04.12-19.13.25:144][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.13.25:146][527]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.13.25:146][527]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.13.25:146][527]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.13.25:146][527]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2024.04.12-19.13.25:146][527]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.13.25:146][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.13.25:146][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.13.25:147][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.13.25:147][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.13.25:147][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.13.25:149][527]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.13.25:197][527]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.13.25:197][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.13.25:197][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.13.25:197][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.13.25:198][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.12-19.13.25:198][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.12-19.13.25:199][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.12-19.13.25:199][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.12-19.13.25:199][527]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.12-19.13.25:199][527]LogAudio: Display: Audio Device (ID: 13) registered with world 'Canyon'.
+[2024.04.12-19.13.25:199][527]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.12-19.13.25:202][527]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.13.25:216][527]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.13.25
+[2024.04.12-19.13.25:218][527]LogWorld: Bringing up level for play took: 0.016141
+[2024.04.12-19.13.25:221][527]PIE: Server logged in
+[2024.04.12-19.13.25:222][527]PIE: Play in editor total start time 0.145 seconds.
+[2024.04.12-19.13.30:897][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.30:897][193]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.30:898][193]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.13.30:900][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.30:904][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.13.30:909][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.30:918][193]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.13.30:918][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.12-19.13.30:918][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.12-19.13.30:918][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.12-19.13.30:925][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.30:931][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.04.12-19.13.30:998][195]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.04.12-19.13.40:875][356]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.13.40:911][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.12-19.13.41:970][456]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.13.41:978][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.13.41:978][456]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:13:41 AM)
+[2024.04.12-19.13.41:978][456]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2024.04.12-19.13.41:980][456]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.04.12-19.13.41:990][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.42:036][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044756s)
+[2024.04.12-19.13.42:036][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044794s)
+[2024.04.12-19.13.42:044][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.12-19.13.42:046][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.13.42:046][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.13.42:046][457]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.13.42:046][457]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2024.04.12-19.13.42:046][457]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.13.42:046][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.13.42:046][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.13.42:046][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.13.42:046][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.13.42:046][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.13.42:049][457]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.13.42:097][457]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.13.42:097][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.13.42:097][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.13.42:097][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.13.42:098][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.12-19.13.42:098][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.12-19.13.42:099][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.12-19.13.42:099][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.12-19.13.42:099][457]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.12-19.13.42:099][457]LogAudio: Display: Audio Device (ID: 14) registered with world 'Canyon'.
+[2024.04.12-19.13.42:099][457]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.12-19.13.42:101][457]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.13.42:116][457]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.13.42
+[2024.04.12-19.13.42:117][457]LogWorld: Bringing up level for play took: 0.016109
+[2024.04.12-19.13.42:120][457]PIE: Server logged in
+[2024.04.12-19.13.42:120][457]PIE: Play in editor total start time 0.142 seconds.
+[2024.04.12-19.13.44:636][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.44:636][746]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.44:636][746]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.13.44:640][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.44:644][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.13.44:648][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.44:658][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.13.44:659][746]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.12-19.13.44:659][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.12-19.13.44:660][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.12-19.13.44:664][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.44:672][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.12-19.13.44:740][748]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.04.12-19.13.48:142][133]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.13.48:178][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.04.12-19.13.49:211][232]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.13.49:218][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.13.49:218][232]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:13:49 AM)
+[2024.04.12-19.13.49:246][232]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2024.04.12-19.13.49:248][232]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.04.12-19.13.49:259][233]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.49:306][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047252s)
+[2024.04.12-19.13.49:306][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.047289s)
+[2024.04.12-19.13.49:315][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.12-19.13.49:317][233]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.13.49:317][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.13.49:318][233]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.13.49:318][233]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2024.04.12-19.13.49:318][233]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.13.49:318][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.13.49:318][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.13.49:318][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.13.49:318][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.13.49:318][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.13.49:320][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.13.49:369][233]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.13.49:369][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.13.49:369][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.13.49:369][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.13.49:369][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.12-19.13.49:369][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.12-19.13.49:371][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.12-19.13.49:371][233]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.12-19.13.49:371][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.12-19.13.49:371][233]LogAudio: Display: Audio Device (ID: 15) registered with world 'Canyon'.
+[2024.04.12-19.13.49:371][233]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.12-19.13.49:373][233]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.13.49:387][233]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.13.49
+[2024.04.12-19.13.49:389][233]LogWorld: Bringing up level for play took: 0.015748
+[2024.04.12-19.13.49:391][233]PIE: Server logged in
+[2024.04.12-19.13.49:392][233]PIE: Play in editor total start time 0.175 seconds.
+[2024.04.12-19.13.55:876][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.55:876][997]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.13.55:876][997]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.13.55:879][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.55:883][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.13.55:888][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.13.55:899][997]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.13.55:899][997]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.12-19.13.55:899][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.12-19.13.55:900][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.12-19.13.55:904][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.13.55:911][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.04.12-19.13.55:946][998]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.04.12-19.14.12:233][889]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.14.12:269][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.04.12-19.14.13:192][975]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.14.13:199][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.14.13:199][975]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:14:13 AM)
+[2024.04.12-19.14.13:226][975]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2024.04.12-19.14.13:228][975]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.04.12-19.14.13:238][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.14.13:285][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046726s)
+[2024.04.12-19.14.13:285][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.046767s)
+[2024.04.12-19.14.13:294][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.14.13:296][976]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.14.13:297][976]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.14.13:297][976]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.14.13:297][976]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2024.04.12-19.14.13:297][976]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.14.13:297][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.14.13:297][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.14.13:298][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.14.13:298][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.14.13:298][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.14.13:299][976]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.14.13:350][976]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.14.13:350][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.14.13:350][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.14.13:350][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.14.13:351][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.12-19.14.13:351][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.12-19.14.13:352][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.12-19.14.13:352][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.12-19.14.13:352][976]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.12-19.14.13:352][976]LogAudio: Display: Audio Device (ID: 16) registered with world 'Canyon'.
+[2024.04.12-19.14.13:352][976]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.12-19.14.13:354][976]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.14.13:368][976]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.14.13
+[2024.04.12-19.14.13:370][976]LogWorld: Bringing up level for play took: 0.016494
+[2024.04.12-19.14.13:373][976]PIE: Server logged in
+[2024.04.12-19.14.13:374][976]PIE: Play in editor total start time 0.175 seconds.
+[2024.04.12-19.14.14:776][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.14.14:776][129]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.14.14:776][129]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.14.14:779][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.14.14:783][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.14.14:788][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.14.14:801][129]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.14.14:801][129]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.12-19.14.14:801][129]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.12-19.14.14:803][129]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.12-19.14.14:806][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.14.14:814][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.12-19.14.14:848][130]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.04.12-19.14.31:858][118]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.14.31:896][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.04.12-19.14.32:992][224]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.14.32:998][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.14.32:998][224]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:14:32 AM)
+[2024.04.12-19.14.33:026][224]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.04.12-19.14.33:028][224]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.04.12-19.14.33:038][225]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.14.33:084][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045253s)
+[2024.04.12-19.14.33:084][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.045290s)
+[2024.04.12-19.14.33:091][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.04.12-19.14.33:093][225]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.14.33:094][225]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.14.33:094][225]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.14.33:094][225]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.04.12-19.14.33:094][225]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.14.33:094][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.14.33:094][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.14.33:095][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.14.33:095][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.14.33:095][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.14.33:097][225]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.14.33:145][225]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.14.33:145][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.14.33:145][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.14.33:145][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.14.33:145][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.12-19.14.33:145][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.12-19.14.33:147][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.12-19.14.33:147][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.12-19.14.33:147][225]LogInit: FAudioDevice initialized with ID 17.
+[2024.04.12-19.14.33:147][225]LogAudio: Display: Audio Device (ID: 17) registered with world 'Canyon'.
+[2024.04.12-19.14.33:147][225]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.12-19.14.33:149][225]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.14.33:165][225]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.14.33
+[2024.04.12-19.14.33:167][225]LogWorld: Bringing up level for play took: 0.017133
+[2024.04.12-19.14.33:169][225]PIE: Server logged in
+[2024.04.12-19.14.33:170][225]PIE: Play in editor total start time 0.171 seconds.
+[2024.04.12-19.14.36:866][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.14.36:866][652]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.14.36:866][652]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.14.36:869][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.14.36:874][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.14.36:877][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.14.36:889][652]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.14.36:889][652]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.12-19.14.36:889][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.12-19.14.36:891][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.12-19.14.36:894][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.14.36:901][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.04.12-19.14.36:936][653]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.04.12-19.15.21:591][871]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.15.21:631][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.04.12-19.15.22:600][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.15.22:607][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.15.22:607][949]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:15:22 AM)
+[2024.04.12-19.15.22:607][949]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.04.12-19.15.22:609][949]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.04.12-19.15.22:619][950]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.22:665][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045695s)
+[2024.04.12-19.15.22:665][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.045738s)
+[2024.04.12-19.15.22:673][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.12-19.15.22:675][950]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.15.22:675][950]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.15.22:676][950]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.15.22:676][950]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2024.04.12-19.15.22:676][950]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.15.22:676][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.15.22:676][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.15.22:676][950]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.15.22:676][950]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.15.22:676][950]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.15.22:678][950]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.15.22:728][950]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.15.22:728][950]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.15.22:728][950]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.15.22:728][950]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.15.22:728][950]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.12-19.15.22:728][950]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.12-19.15.22:729][950]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.12-19.15.22:729][950]LogInit: FAudioDevice initialized with ID 18.
+[2024.04.12-19.15.22:729][950]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.12-19.15.22:729][950]LogAudio: Display: Audio Device (ID: 18) registered with world 'Canyon'.
+[2024.04.12-19.15.22:729][950]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.12-19.15.22:731][950]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.15.22:746][950]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.15.22
+[2024.04.12-19.15.22:748][950]LogWorld: Bringing up level for play took: 0.016299
+[2024.04.12-19.15.22:750][950]PIE: Server logged in
+[2024.04.12-19.15.22:751][950]PIE: Play in editor total start time 0.145 seconds.
+[2024.04.12-19.15.24:056][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.24:056][ 91]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.24:056][ 91]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.15.24:059][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.24:063][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.15.24:067][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.24:079][ 91]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.15.24:079][ 91]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.12-19.15.24:079][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.12-19.15.24:081][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.12-19.15.24:084][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.24:090][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.04.12-19.15.24:125][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.04.12-19.15.45:619][619]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.15.45:657][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.04.12-19.15.46:700][718]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.15.46:707][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.15.46:707][718]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:15:46 AM)
+[2024.04.12-19.15.46:707][718]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.04.12-19.15.46:709][718]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.04.12-19.15.46:720][719]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.46:765][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044578s)
+[2024.04.12-19.15.46:765][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044618s)
+[2024.04.12-19.15.46:773][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.12-19.15.46:776][719]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.15.46:776][719]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.15.46:777][719]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.15.46:777][719]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2024.04.12-19.15.46:777][719]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.15.46:777][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.15.46:777][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.15.46:777][719]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.15.46:777][719]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.15.46:777][719]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.15.46:779][719]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.15.46:827][719]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.15.46:827][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.15.46:827][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.15.46:827][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.15.46:827][719]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.04.12-19.15.46:827][719]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.04.12-19.15.46:829][719]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.04.12-19.15.46:829][719]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.04.12-19.15.46:829][719]LogInit: FAudioDevice initialized with ID 19.
+[2024.04.12-19.15.46:829][719]LogAudio: Display: Audio Device (ID: 19) registered with world 'Canyon'.
+[2024.04.12-19.15.46:829][719]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.12-19.15.46:831][719]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.15.46:846][719]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.15.46
+[2024.04.12-19.15.46:848][719]LogWorld: Bringing up level for play took: 0.016409
+[2024.04.12-19.15.46:851][719]PIE: Server logged in
+[2024.04.12-19.15.46:851][719]PIE: Play in editor total start time 0.144 seconds.
+[2024.04.12-19.15.51:586][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.51:586][269]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.51:586][269]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.15.51:588][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.51:593][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.15.51:597][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.51:608][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.15.51:608][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.12-19.15.51:608][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.12-19.15.51:610][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.12-19.15.51:613][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.51:621][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.04.12-19.15.51:655][270]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.04.12-19.15.52:567][375]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.15.52:573][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.15.52:573][375]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:15:52 AM)
+[2024.04.12-19.15.52:595][375]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.04.12-19.15.52:597][375]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.04.12-19.15.52:607][376]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.52:652][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044834s)
+[2024.04.12-19.15.52:652][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044871s)
+[2024.04.12-19.15.52:660][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.15.52:663][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.15.52:663][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.15.52:664][376]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.15.52:664][376]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2024.04.12-19.15.52:664][376]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.04.12-19.15.52:664][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.15.52:665][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.15.52:665][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.15.52:665][376]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.15.52:665][376]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.15.52:665][376]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.15.52:667][376]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.15.52:715][376]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.15.52:715][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.15.52:715][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.15.52:715][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.15.52:716][376]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.04.12-19.15.52:716][376]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.04.12-19.15.52:717][376]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.04.12-19.15.52:717][376]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.04.12-19.15.52:717][376]LogInit: FAudioDevice initialized with ID 20.
+[2024.04.12-19.15.52:717][376]LogAudio: Display: Audio Device (ID: 20) registered with world 'Canyon'.
+[2024.04.12-19.15.52:717][376]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.12-19.15.52:719][376]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.15.52:734][376]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.15.52
+[2024.04.12-19.15.52:735][376]LogWorld: Bringing up level for play took: 0.016369
+[2024.04.12-19.15.52:739][376]PIE: Server logged in
+[2024.04.12-19.15.52:739][376]PIE: Play in editor total start time 0.165 seconds.
+[2024.04.12-19.15.56:325][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.56:325][791]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.15.56:325][791]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.15.56:329][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.56:332][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.15.56:337][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.15.56:346][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.15.56:350][791]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.12-19.15.56:350][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.12-19.15.56:351][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.12-19.15.56:363][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.04.12-19.15.56:397][792]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.04.12-19.16.06:116][936]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.16.06:152][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.12-19.16.07:299][ 49]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.16.07:306][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.16.07:306][ 49]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:16:07 AM)
+[2024.04.12-19.16.07:334][ 49]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.04.12-19.16.07:337][ 49]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.04.12-19.16.07:347][ 50]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.07:395][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046547s)
+[2024.04.12-19.16.07:395][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.046584s)
+[2024.04.12-19.16.07:405][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.16.07:407][ 50]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.16.07:407][ 50]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.16.07:407][ 50]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.16.07:407][ 50]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2024.04.12-19.16.07:407][ 50]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.04.12-19.16.07:407][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.16.07:407][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.16.07:407][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.16.07:407][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.16.07:407][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.16.07:408][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.16.07:408][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.16.07:408][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.16.07:408][ 50]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.16.07:408][ 50]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.16.07:408][ 50]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.16.07:410][ 50]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.16.07:458][ 50]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.16.07:458][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.16.07:458][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.16.07:458][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.16.07:459][ 50]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.04.12-19.16.07:459][ 50]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.04.12-19.16.07:461][ 50]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.04.12-19.16.07:461][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.04.12-19.16.07:461][ 50]LogInit: FAudioDevice initialized with ID 21.
+[2024.04.12-19.16.07:461][ 50]LogAudio: Display: Audio Device (ID: 21) registered with world 'Canyon'.
+[2024.04.12-19.16.07:461][ 50]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.04.12-19.16.07:463][ 50]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.16.07:479][ 50]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.16.07
+[2024.04.12-19.16.07:481][ 50]LogWorld: Bringing up level for play took: 0.018160
+[2024.04.12-19.16.07:484][ 50]PIE: Server logged in
+[2024.04.12-19.16.07:485][ 50]PIE: Play in editor total start time 0.178 seconds.
+[2024.04.12-19.16.15:825][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.15:825][ 35]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.15:825][ 35]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.16.15:828][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.15:832][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.16.15:837][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.15:847][ 35]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-19.16.15:848][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.04.12-19.16.15:848][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.12-19.16.15:849][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.12-19.16.15:854][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.15:861][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.12-19.16.15:893][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.04.12-19.16.17:026][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.16.17:033][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.16.17:033][169]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:16:17 AM)
+[2024.04.12-19.16.17:066][169]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.04.12-19.16.17:068][169]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.04.12-19.16.17:079][170]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.17:123][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044880s)
+[2024.04.12-19.16.17:123][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.044918s)
+[2024.04.12-19.16.17:133][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.12-19.16.17:136][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.16.17:136][170]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.16.17:137][170]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.16.17:137][170]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2024.04.12-19.16.17:137][170]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.16.17:137][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.16.17:137][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.16.17:138][170]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.16.17:138][170]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.16.17:138][170]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.16.17:140][170]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.16.17:188][170]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.16.17:188][170]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.16.17:188][170]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.16.17:188][170]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.16.17:188][170]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.04.12-19.16.17:188][170]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.04.12-19.16.17:190][170]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.04.12-19.16.17:190][170]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.04.12-19.16.17:190][170]LogInit: FAudioDevice initialized with ID 22.
+[2024.04.12-19.16.17:190][170]LogAudio: Display: Audio Device (ID: 22) registered with world 'Canyon'.
+[2024.04.12-19.16.17:190][170]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.04.12-19.16.17:192][170]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.16.17:208][170]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.16.17
+[2024.04.12-19.16.17:210][170]LogWorld: Bringing up level for play took: 0.016901
+[2024.04.12-19.16.17:213][170]PIE: Server logged in
+[2024.04.12-19.16.17:213][170]PIE: Play in editor total start time 0.18 seconds.
+[2024.04.12-19.16.23:785][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.23:785][943]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.23:786][943]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.16.23:788][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.23:792][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.16.23:796][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.23:805][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.23:807][943]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.04.12-19.16.23:807][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.12-19.16.23:809][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.12-19.16.23:821][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.12-19.16.23:854][944]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.04.12-19.16.26:908][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-19.16.26:915][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-19.16.26:915][290]PIE: New page: PIE session: Canyon (Apr 12, 2024, 5:16:26 AM)
+[2024.04.12-19.16.26:945][290]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.04.12-19.16.26:947][290]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.12-19.16.26:957][291]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.27:003][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045742s)
+[2024.04.12-19.16.27:003][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Canyon.Canyon to /Game/UEDPIE_0_Canyon.Canyon (0.045786s)
+[2024.04.12-19.16.27:012][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.04.12-19.16.27:014][291]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-19.16.27:015][291]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-19.16.27:015][291]LogAIModule: Creating AISystem for world Canyon
+[2024.04.12-19.16.27:015][291]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2024.04.12-19.16.27:015][291]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-19.16.27:015][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.12-19.16.27:015][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-19.16.27:016][291]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-19.16.27:016][291]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-19.16.27:016][291]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-19.16.27:018][291]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-19.16.27:066][291]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.04.12-19.16.27:066][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-19.16.27:066][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-19.16.27:066][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-19.16.27:067][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.04.12-19.16.27:067][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.04.12-19.16.27:068][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.04.12-19.16.27:068][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.04.12-19.16.27:068][291]LogInit: FAudioDevice initialized with ID 23.
+[2024.04.12-19.16.27:068][291]LogAudio: Display: Audio Device (ID: 23) registered with world 'Canyon'.
+[2024.04.12-19.16.27:068][291]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.04.12-19.16.27:070][291]LogLoad: Game class is 'BP_ThirdPersonGameMode1_C'
+[2024.04.12-19.16.27:084][291]LogWorld: Bringing World /Game/UEDPIE_0_Canyon.Canyon up for play (max tick rate 0) at 2024.04.12-12.16.27
+[2024.04.12-19.16.27:086][291]LogWorld: Bringing up level for play took: 0.016032
+[2024.04.12-19.16.27:089][291]PIE: Server logged in
+[2024.04.12-19.16.27:089][291]PIE: Play in editor total start time 0.175 seconds.
+[2024.04.12-19.16.34:856][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.34:856][202]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Canyon
+[2024.04.12-19.16.34:856][202]LogWorld: UWorld::CleanupWorld for Canyon, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-19.16.34:859][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.34:863][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-19.16.34:867][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-19.16.34:875][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-19.16.34:878][202]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.04.12-19.16.34:878][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.04.12-19.16.34:880][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.04.12-19.16.34:891][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.04.12-19.16.34:924][203]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.12-19.17.20:173][545]BlueprintLog: New page: Compile BP_barrel
+[2024.04.12-19.17.20:210][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.12-19.17.20:753][586]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-19.17.20:818][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Destructables/BP_barrel" FILE="D:/GrahamConnell/Game_git/NAG_Backhoe/Content/Assets/Destructables/BP_barrel.uasset" SILENT=true
+[2024.04.12-19.17.20:842][586]LogSavePackage: Moving output files for package: /Game/Assets/Destructables/BP_barrel
+[2024.04.12-19.17.20:842][586]LogSavePackage: Moving 'D:/GrahamConnell/Game_git/NAG_Backhoe/Saved/BP_barrel711F6EE145540BE7A4FC03804C5E5D48.tmp' to 'D:/GrahamConnell/Game_git/NAG_Backhoe/Content/Assets/Destructables/BP_barrel.uasset'
+[2024.04.12-19.17.20:848][586]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 892 ms)
+[2024.04.12-19.17.20:850][586]AssetCheck: New page: Asset Save: BP_barrel
+[2024.04.12-19.17.20:850][586]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Destructables/BP_barrel.BP_barrel
+[2024.04.12-19.17.25:072][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
