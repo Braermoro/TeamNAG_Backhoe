@@ -1234,3 +1234,144 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.13-00.53.59:966][233]LogContentValidation: Display: Validating /Script/Engine.World /Game/Canyon.Canyon
 [2024.04.13-00.54.06:925][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
 [2024.04.13-00.54.08:971][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.13-00.56.14:779][813]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e
+[2024.04.13-00.56.14:779][813]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e
+[2024.04.13-00.56.14:779][813]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_165
+[2024.04.13-00.56.15:578][881]LogShaderCompilers: Display: ================================================
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Total job queries 230, among them cache hits 86 (37.39%)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Tracking 143 distinct input hashes that result in 126 distinct outputs (88.11%)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: RAM used: 3.88 MiB of 1.60 GiB budget. Usage: 0.24%
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Shaders Compiled: 22
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Jobs assigned 23, completed 22 (95.65%)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Average time worker was idle: 121.36 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.14 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Job execution time: average 0.88 s, max 1.66 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Job life time (pending + execution): average 0.95 s, max 1.67
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Shader code size: average 44.56 KiB, min 30.805 KiB, max 53.176 KiB
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.09 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Jobs were issued in 23 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Average processing rate: 7.13 jobs/sec
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Total thread time: 11.405 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Total thread preprocess time: 0.877 s
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Percentage time preprocessing: 7.69%
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Effective parallelization: 3.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.75 sec, max 0.99 sec, min 0.13 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    7 times, average 0.66 sec, max 0.72 sec, min 0.48 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.12 sec, max 0.15 sec, min 0.10 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 52.42% of total time (compiled    8 times, average 0.75 sec, max 0.99 sec, min 0.13 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 40.26% of total time (compiled    7 times, average 0.66 sec, max 0.72 sec, min 0.48 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 2.17% of total time (compiled    2 times, average 0.12 sec, max 0.15 sec, min 0.10 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                                 FLumenCardVS - 1.36% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display:                                                  FHitProxyVS - 0.88% of total time (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.04.13-00.56.15:579][881]LogShaderCompilers: Display: ================================================
+[2024.04.13-00.56.16:443][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e
+[2024.04.13-00.56.16:443][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e
+[2024.04.13-00.56.16:444][960]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Crate_Stacks_01e.SM_Crate_Stacks_01e as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_166
+[2024.04.13-00.56.18:649][189]Cmd: TRANSACTION UNDO
+[2024.04.13-00.56.18:650][189]LogEditorTransaction: Undo Scale Elements
+[2024.04.13-00.56.28:397][101]Cmd: TRANSACTION UNDO
+[2024.04.13-00.56.28:397][101]LogEditorTransaction: Undo Scale Elements
+[2024.04.13-00.56.30:241][227]Cmd: TRANSACTION UNDO
+[2024.04.13-00.56.30:241][227]LogEditorTransaction: Undo Scale Elements
+[2024.04.13-00.56.47:238][ 86]Cmd: TRANSACTION UNDO
+[2024.04.13-00.56.47:238][ 86]LogEditorTransaction: Undo Move Elements
+[2024.04.13-00.56.59:142][186]Cmd: DUPLICATE
+[2024.04.13-00.56.59:142][186]Cmd: ACTOR DUPLICATE
+[2024.04.13-00.57.04:213][756]Cmd: TRANSACTION UNDO
+[2024.04.13-00.57.04:213][756]LogEditorTransaction: Undo Reset Scale
+[2024.04.13-00.58.50:309][652]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b
+[2024.04.13-00.58.50:309][652]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b
+[2024.04.13-00.58.50:310][652]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_169
+[2024.04.13-00.58.51:945][782]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b
+[2024.04.13-00.58.51:945][782]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b
+[2024.04.13-00.58.51:946][782]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/Props/Nanite/SM_Dry_Goods_NN_03b.SM_Dry_Goods_NN_03b as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_170
+[2024.04.13-00.59.29:538][836]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.13-00.59.29:596][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Canyon" FILE="D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.13-00.59.29:621][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.04.13-00.59.31:462][836]LogSavePackage: Moving output files for package: /Game/Canyon
+[2024.04.13-00.59.31:463][836]LogSavePackage: Moving 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Saved/Canyon1E5C182449B325204A20CFBBB60AE868.tmp' to 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap'
+[2024.04.13-00.59.31:476][836]LogFileHelpers: Saving map 'Canyon' took 1.881
+[2024.04.13-00.59.31:482][836]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.94 sec (total: 3.71 sec)
+[2024.04.13-00.59.31:489][836]AssetCheck: New page: Asset Save: Canyon
+[2024.04.13-00.59.31:489][836]LogContentValidation: Display: Validating /Script/Engine.World /Game/Canyon.Canyon
+[2024.04.13-01.01.35:226][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:282][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: ================================================
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Total job queries 251, among them cache hits 88 (35.06%)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Tracking 163 distinct input hashes that result in 141 distinct outputs (86.50%)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: RAM used: 4.33 MiB of 1.60 GiB budget. Usage: 0.26%
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Shaders Compiled: 33
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Jobs assigned 33, completed 33 (100%)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Average time worker was idle: 153.49 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.14 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Job execution time: average 0.77 s, max 1.66 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Job life time (pending + execution): average 0.83 s, max 1.67
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Shader code size: average 42.991 KiB, min 30.805 KiB, max 53.176 KiB
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.57 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Average processing rate: 5.93 jobs/sec
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Total thread time: 14.263 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Total thread preprocess time: 1.35 s
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Percentage time preprocessing: 9.46%
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Effective parallelization: 2.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   12 times, average 0.63 sec, max 0.99 sec, min 0.13 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    8 times, average 0.62 sec, max 0.72 sec, min 0.40 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.16 sec, max 0.17 sec, min 0.15 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.14 sec, max 0.16 sec, min 0.10 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 53.41% of total time (compiled   12 times, average 0.63 sec, max 0.99 sec, min 0.13 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 34.98% of total time (compiled    8 times, average 0.62 sec, max 0.72 sec, min 0.40 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.92% of total time (compiled    4 times, average 0.14 sec, max 0.16 sec, min 0.10 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                                 FLumenCardVS - 3.40% of total time (compiled    3 times, average 0.16 sec, max 0.17 sec, min 0.15 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 1.85% of total time (compiled    3 times, average 0.09 sec, max 0.09 sec, min 0.08 sec)
+[2024.04.13-01.01.35:327][885]LogShaderCompilers: Display: ================================================
+[2024.04.13-01.01.35:431][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:448][889]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:468][890]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:485][891]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:528][893]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:691][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.01.35:783][904]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.13-01.02.30:296][830]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e
+[2024.04.13-01.02.30:296][830]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e
+[2024.04.13-01.02.30:296][830]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_172
+[2024.04.13-01.02.31:649][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e
+[2024.04.13-01.02.31:649][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e
+[2024.04.13-01.02.31:651][938]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01e.SM_Lumber_Stack_01e as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_173
+[2024.04.13-01.02.44:514][308]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b
+[2024.04.13-01.02.44:514][308]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b
+[2024.04.13-01.02.44:515][308]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_174
+[2024.04.13-01.02.47:324][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b
+[2024.04.13-01.02.47:324][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b
+[2024.04.13-01.02.47:325][602]LogActorFactory: Actor Factory spawned StaticMesh /Game/Northwood/Meshes/General/SM_Lumber_Stack_01b.SM_Lumber_Stack_01b as actor: StaticMeshActor /Game/Canyon.Canyon:PersistentLevel.StaticMeshActor_175
+[2024.04.13-01.03.19:537][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.13-01.03.19:595][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Canyon" FILE="D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.13-01.03.19:618][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.04.13-01.03.21:163][ 51]LogSavePackage: Moving output files for package: /Game/Canyon
+[2024.04.13-01.03.21:164][ 51]LogSavePackage: Moving 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Saved/CanyonA067D1214848B19A1A6E4AA8FB124834.tmp' to 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap'
+[2024.04.13-01.03.21:177][ 51]LogFileHelpers: Saving map 'Canyon' took 1.582
+[2024.04.13-01.03.21:183][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.64 sec (total: 5.36 sec)
+[2024.04.13-01.03.21:189][ 51]AssetCheck: New page: Asset Save: Canyon
+[2024.04.13-01.03.21:189][ 51]LogContentValidation: Display: Validating /Script/Engine.World /Game/Canyon.Canyon
+[2024.04.13-01.03.24:431][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.04.13-01.03.27:190][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.04.13-01.03.38:043][747]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.13-01.03.38:098][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Canyon" FILE="D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.13-01.03.38:116][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.04.13-01.03.39:677][747]LogSavePackage: Moving output files for package: /Game/Canyon
+[2024.04.13-01.03.39:677][747]LogSavePackage: Moving 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Saved/Canyon2C9A68944227D8E18A281AA7BFCCB180.tmp' to 'D:/Noah/TeamNAG_Backhoe/NAG_Backhoe/Content/Canyon.umap'
+[2024.04.13-01.03.39:690][747]LogFileHelpers: Saving map 'Canyon' took 1.594
+[2024.04.13-01.03.39:696][747]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.65 sec (total: 7.01 sec)
+[2024.04.13-01.03.39:703][747]AssetCheck: New page: Asset Save: Canyon
+[2024.04.13-01.03.39:703][747]LogContentValidation: Display: Validating /Script/Engine.World /Game/Canyon.Canyon
+[2024.04.13-01.03.42:069][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
